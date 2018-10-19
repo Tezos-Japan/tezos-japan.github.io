@@ -1,0 +1,757 @@
+h2, h3 {
+    color: #2D7DF8;
+}
+
+body p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.navbar-default {
+    z-index: 99999;
+}
+
+.title-float-containers {
+    position: absolute;
+    left: 32%;
+    margin-top: -120px;
+    background: #fff;
+    width: 600px;
+    height: 70px;
+    line-height: 60px;
+    font-size: 27px;
+    border: 5px solid #FF5A00;
+    color: #2D7DF8;
+    font-weight: bold;
+    text-align: center;
+    z-index: 999;
+}
+
+.contact-custom-title {
+    margin-top: -2%;
+}
+
+#nav-for-cp, .nav-custom-close {
+    display: none;
+}
+
+.nav-custom-close {
+    color: #2D7DF8;
+}
+
+
+.mt10 {
+    margin-top: 10px;
+}
+.mt15 {
+    margin-top: 15px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+.mt40 {
+    margin-top: 40px;
+}
+
+.mt130 {
+    margin-top: 130px !important;
+}
+
+.mt140 {
+    margin-top: 140px !important;
+}
+
+.mt150 {
+    margin-top: 150px !important;
+}
+
+.mt265 {
+    margin-top: 265px !important;
+}
+
+
+.mt-85 {
+   margin-top: -85px;
+}
+
+        
+.mt-109 {
+   margin-top: -109px;
+}
+
+.mt-140 {
+   margin-top: -140px;
+}
+
+.mt-138 {
+   margin-top: -138px;
+}
+.mt-185 {
+   margin-top: -185px; 
+}
+.ml10 {
+    margin-left: 10px;
+}
+.ml15 {
+    margin-left: 15px;
+}
+.mr5 {
+    margin-right: 5px;
+}
+.mr10 {
+    margin-right: 10px;
+}
+.mb40 {
+    margin-bottom: 40px;
+}
+.mb50 {
+    margin-bottom: 50px;
+}
+
+.pt5 {
+    padding-top: 5px;
+}
+.pt8 {
+    padding-top: 8px;
+}
+.pt10 {
+    padding-top: 10px;
+}
+
+.pt60 {
+    padding-top: 10px;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+.pl15 {
+    padding-left: 15px;
+}
+.pl30 {
+    padding-left: 30px;
+}
+.pl60 {
+    padding-left: 60px;
+}
+
+.pl70 {
+    padding-left: 70px;
+}
+
+.pb10px {
+    padding-bottom: 10px;
+}
+
+.borderless td, .borderless th, .borderless tr  {
+    border: none;
+    border-top: 0 !important;
+}
+
+.whats-tezos-content .whats-tezos-description {
+    padding-left: 30px;
+}
+
+
+.resources-sub-contents {
+    z-index: 9999;
+} 
+
+.resources-sub-contents div p {
+    margin-top: 10px;
+}  
+
+.resources-sub-contents .see-more, .resources-sub-contents .for-cp {
+    display: none;
+}
+
+#contact .contact-address-info {
+    padding: 100px 10px 40px 70px;
+}
+
+#contact .contact-address-info a {
+    background-color: #2D7DF8;
+    border-color: #2D7DF8;
+}
+
+#contact .contact-address-info a:hover {
+    background-color: #FF5A00;
+     border-color: #e65000;
+}
+
+#nav-for-pc .navbar-right {
+    margin-right: 0px !important;   
+}
+
+/*#nav-for-pc .navbar-nav:after {
+    height: 10px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 417px;
+    background: #2D7DF8;
+    content: '';
+    margin-top: 29px;
+}*/
+
+#nav-for-pc .navbar-nav li:first-child:before {
+   content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    z-index: 100;
+    width: 4px;
+    height: 33%;
+    background: #2D7DF8;
+    margin-top: -10px;
+}
+
+#nav-for-pc .navbar-nav li:before {
+   content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    z-index: 100;
+    width: 2px;
+    height: 33%;
+    background: #2D7DF8;
+    margin-top: -10px;
+}
+
+
+#nav-for-pc .navbar-nav li:after {
+   content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    z-index: 100;
+    width: 2px;
+    height: 33%;
+    background: #2D7DF8;
+    margin-top: -10px;
+}
+
+#nav-for-pc .navbar-nav li:last-child:after {
+   content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    z-index: 100;
+    width: 4px;
+    height: 33%;
+    background: #2D7DF8;
+    margin-top: -10px;
+}
+
+
+.navbar-nav li a:hover {
+    background-color: #FF5A00 !important;
+}
+
+#whats-tezos-title:after {
+    position: absolute;
+    content: url('../images/what_tezos-line.png');
+    bottom: -81px;
+    left: 47%;
+}
+
+#resources-title:after {
+    position: absolute;
+    content: url('../images/resources_line.png');
+    bottom: -147px;
+    left: 1%;
+    z-index: 888;
+}
+
+#about-us-title:after {
+    position: absolute;
+    content: url('../images/about-us_line.png');
+    bottom: -538px;
+    left: 45%;
+    z-index: 888;
+}
+
+.resources-img-for-cp, .resources-img-for-cp-first {
+    display: none;
+}
+.resources-steps-img{
+    z-index: 999;
+    position: relative;
+    /* margin-left: -5px; */
+}
+
+.developer-resources-container {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.developer-resources-container h2 {
+    padding-top: 60px;
+    color: #646464;
+    border-bottom: 3px solid #646464;   
+    padding-bottom: 10px;
+}
+
+
+.developer-resources-container h2::after {
+    position: absolute;
+    content: url('../images/developer_resources_line.png');
+    bottom: -68px;
+    left: 49%;
+    z-index: 888;
+}
+.developer-resources-container h4 {
+    color: #646464;
+}
+
+.developer-resources-container .developer-resources-content {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.developer-resources-container .developer-resources-content p {
+    text-align: center;
+}
+
+.developer-resources-container .developer-resources-content a img {
+   color: #fff;
+}
+
+.developer-resources-container .developer-resources-content a {
+    min-width: 300px;
+    background-color: #2D7DF8;
+    border-color: #2D7DF8;
+}
+.developer-resources-container .developer-resources-content a:hover {
+   background-color: #FF5A00;
+   border-color: #e65000;
+}
+
+.contact-map-about-us-sub { height: 500px; clear: both;}
+
+
+
+@media screen and (min-width: 1700px) {
+    .title-float-containers {
+        left: 34%;
+    }
+    #resources-title:after {
+        left: 4%;
+    }
+
+    .contact-custom-title {
+        margin-top: -2%;
+    }
+    #about-us-title:after { left: 49%; }
+
+    /*.navbar-nav:after{ width: 401px; }*/
+}
+
+@media screen and ( max-width: 1500px  ) {
+    .title-float-containers {
+        left: 31%;
+    }
+}
+
+@media screen and ( max-width: 1400px  ) {
+    .title-float-containers {
+        left: 29.5%;
+    }
+}
+
+@media screen and ( max-width: 1366px  ) {
+    .title-float-containers {
+        left: 29%;
+    }
+
+    .navbar-default{
+        background : #fff;
+    }
+}
+
+@media screen and ( max-width: 1300px  ) {
+    .title-float-containers {
+        left: 28%;
+    }
+}
+
+@media screen and ( max-width: 1280px  ) {
+    .title-float-containers {
+        left: 27.4%;
+    }
+}
+
+@media screen and ( max-width: 1200px  ) {
+    .title-float-containers {
+        left: 26%;
+    }
+}
+
+@media screen and ( max-width: 1100px  ) {
+    .title-float-containers {
+        left: 24%;
+    }
+}
+@media screen and ( max-width: 1050px  ) {
+    .title-float-containers {
+        left: 22.5%;
+    }
+}
+@media screen and ( max-width: 991px  ) {
+    .title-float-containers {
+        left: 21%;
+    }
+}
+
+@media screen and ( max-width: 940px  ) {
+    .title-float-containers {
+        left: 19%;
+    }
+}
+
+@media screen and ( max-width: 865px  ) {
+    .title-float-containers {
+        left: 16.3%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .custom-odd-resources-content {
+        padding-left: 12px;
+        padding-right: 25px;
+    }
+}
+
+@media screen and ( max-width: 767px  ) {
+    .title-float-containers {
+        left: 28%;
+        width: 300px;
+        margin-top: -60px;
+    }
+    .contact-map-about-us-sub {
+        height: auto;
+    }
+
+    #whats-tezos-title:after {
+        content: url('../images/mobile_what_tezos_line.png');
+        bottom: -79px;
+        left: 44%;
+    }
+
+    .whats-tezos-content {
+        padding-top: 70px;
+    }
+
+    .whats-tezos-content .whats-tezos-description {
+        padding-left: 0px;
+    }
+
+    #resources-title:after {
+        content: url('../images/mobile_resources_line.png');
+        bottom: -179px;
+        left: 41%;
+    }
+
+    .resources-img-for-cp-first{
+        padding-top: 60px;
+        display: inline-block;
+        position: relative;
+        width: 400px;
+        margin-left: 15%;
+        z-index: 9998;
+    }
+
+    .resources-img-for-cp {
+        display: inline-block;
+        position: relative;
+        margin-top: 0px !important;
+        width: 400px;
+        margin-left: 15%;
+        z-index: 9998;
+    }
+
+    .resources-steps-img {
+        display: none;
+    }
+
+    .resources-sub-contents div  {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .resources-sub-contents div .first-p-el{
+        position: absolute;
+        top: 207px;
+        left: 170px;
+        width: 340px;
+        text-align: justify;
+        z-index: 9999;
+    }
+
+    .resources-sub-contents div p {
+        position: absolute;
+        left: 185px;
+        top: 145px;
+        width: 340px;
+        text-align: justify;
+        z-index: 9999;
+    }
+
+    .resources-sub-contents .see-more {
+        display: inline-block;
+        text-align: right;
+        border-bottom: 1px solid #2D7DF8;
+        padding-bottom: 3px;
+        font-weight: bold;
+        text-decoration: none;
+        float: right;
+        color: #2D7DF8;
+    }
+
+    .resources-sub-contents .for-pc {
+        display: none;
+    }
+    .resources-sub-contents .for-cp {
+        display: inline-block;
+    }
+
+    .resources-sub-contents .for-cp, .resources-sub-contents .for-pc {
+        margin-left: 5px;
+        /*width: 344px;*/
+    }
+
+
+    
+
+    #about-us-title:after {
+        content: url('../images/mobile_about-us_line.png');
+        bottom: -179px;
+        left: 43%;
+    }
+
+    #about-us-content .contact-address-info {
+        text-align: center;
+        padding-top: 10px;
+        background-color: #fff;
+        z-index: 999;
+        position: relative;
+        margin-top: 80px;
+    }
+
+    #contact .contact-custom-title {
+        margin-top: -38px;
+    }
+
+
+    .navbar-default .navbar-toggle {
+        margin-right: 0px; 
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 30px 25px;
+    }
+
+    #nav-for-pc {
+        display: none;
+    }
+
+    #nav-for-cp {
+        display: block;
+        height:280px;
+    }
+
+    #nav-for-cp div {
+        padding-left: 60px;
+        padding-top: 22px;
+    }
+
+    #nav-for-cp ul li a {
+        color: #fff;
+        text-align: left;
+        border-bottom: 1px solid #fff;
+        width: 30%;
+        margin-left: 10%;
+        font-size: 20px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+
+    #contact .contact-address-info {
+        padding: 20px 10px 40px 0px;
+    }
+
+    .custom-remove-margin {
+        margin-left: -14px;
+    }
+
+}
+
+@media screen and ( max-width: 539px  ) {
+    .title-float-containers { left: 22%; }
+    .resources-img-for-cp-first, .resources-img-for-cp{
+        margin-left: 3%;
+    }
+
+
+    .resources-sub-contents div .first-p-el {
+        left: 19%;
+    }
+
+    .resources-sub-contents div p {
+        left: 21%;
+    }
+
+    #whats-tezos-container { margin-top: -50px; }
+
+    #about-us-content .contact-address-info {
+        padding: 20px 10px 40px 10px;
+        margin-top: 100px;
+    }
+
+    #nav-for-cp ul li a {
+        width: 50%;
+    }
+}
+
+@media screen and ( max-width: 490px) {
+    .title-float-containers {
+        left: 19%;
+    }
+
+    .resources-img-for-cp-first, .resources-img-for-cp {  width: 355px;}
+}
+
+@media screen and ( max-width: 415px) {
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .title-float-containers {
+        left: 13%;
+    }
+
+    #whats-tezos-container .whats-tezos-content, #whats-tezos-container .whats-tezos-content .whats-tezos-description  {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .resources-img-for-cp-first, .resources-img-for-cp {
+        margin-left: -5%;
+    }
+
+    .resources-sub-contents div .first-p-el {
+        width: 298px;
+        left: 14%;
+        top: 176px;
+    }
+
+    .resources-sub-contents div p {
+        left: 17%;
+        top: 115px;
+        width: 298px;
+    }
+
+    .developer-resources-container{
+        margin-top: 80px;
+    }
+
+    #home {
+        margin-top: 57px;
+    }
+    
+
+}
+
+@media screen and ( max-width: 375px) {
+    .title-float-containers {
+        left: 10%;
+    }
+    #nav-for-cp ul li a {
+        width: 50%;
+    }
+    #nav-for-cp div {
+        padding-left: 18px;
+        padding-top: 15px;
+    }
+    .resources-img-for-cp-first {
+        padding-top: 73px;
+    }
+
+    .resources-sub-contents div .first-p-el {
+        width: 264px;
+        overflow-y: auto;
+        max-height: 260px;
+    }
+
+    .resources-sub-contents div p {
+        width: 264px;
+        top: 99px;
+        overflow-y: auto;
+        max-height: 260px;
+    }
+
+    .developer-resources-container h2 {
+        padding-top: 0px;
+    }
+
+    .developer-resources-container {
+        margin-top: 30px;
+    }
+
+    #whats-tezos-container .whats-tezos-content, #whats-tezos-container .whats-tezos-content .whats-tezos-description {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+
+}
+
+@media screen and ( max-width: 325px) {
+    .title-float-containers {
+        left: 4%;
+    }
+
+    .resources-img-for-cp-first {
+        padding-top: 98px;
+    }
+
+    .resources-img-for-cp {
+        /*padding-top: 54px;*/
+    }
+
+    .resources-sub-contents div .first-p-el {
+        top: 175px;
+        width: 224px;
+        overflow-y: auto;
+        max-height: 212px;
+
+    }
+
+    .resources-sub-contents div p {
+        width: 224px;
+        top: 76px;
+        overflow-y: auto;
+        max-height: 212px;
+    }
+
+    #resources-title:after {
+        bottom: -178px;
+    }
+
+}
+
+
+
+
+    
